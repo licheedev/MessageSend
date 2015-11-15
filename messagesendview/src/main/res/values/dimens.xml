@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="button_radius_default">5.0dp</dimen>
+    <dimen name="one_pixel">1.0px</dimen>
+    <dimen name="text_primary_size">16.0dp</dimen>
+    <dimen name="common_h_gap">8.0dp</dimen>
+</resources>

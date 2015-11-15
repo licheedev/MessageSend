@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16.0dp"
+    android:paddingLeft="24.0dp"
+    android:paddingRight="24.0dp"
+    android:paddingTop="16.0dp">
+
+    <ImageView
+        android:id="@+id/chat_editor_more_camera"
+        android:layout_width="64.0dp"
+        android:layout_height="64.0dp"
+        android:contentDescription="@string/content_desc_ignored"
+        android:src="@mipmap/ic_chat_editor_more_camera" />
+
+    <ImageView
+        android:id="@+id/chat_editor_more_gallary"
+        android:layout_width="64.0dp"
+        android:layout_height="64.0dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/content_desc_ignored"
+        android:src="@mipmap/ic_chat_editor_more_gallary" />
+</LinearLayout>

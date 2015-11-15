@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="120dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:background="@color/appBackgroundDark">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/record_icon_container"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="40dp">
+                <ImageView
+                    android:id="@+id/record_state_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/content_desc_ignored"
+                    android:src="@mipmap/ic_voice_recording"/>
+                <ImageView
+                    android:id="@+id/record_state_volume"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:visibility="visible"
+                    android:contentDescription="@string/content_desc_ignored"
+                    android:background="@mipmap/ic_volume5"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/remain_seconds"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:textColor="@color/DefaultForegroundColor"
+                android:textStyle="bold"
+                android:textSize="100sp"
+                android:gravity="center"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/record_state_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/chat_record_cancel_tv_bg"
+            android:padding="4dp"
+            android:textColor="@color/DefaultForegroundColor"
+            android:text="@string/chat_message_slide_up_to_cancel"/>
+    </LinearLayout>
+</RelativeLayout>

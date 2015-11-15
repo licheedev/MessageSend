@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MessageSendView">
+        <attr name="android:hint" />
+        <attr name="android:maxLength" />
+        <attr name="android:maxLines" />
+
+        <attr name="sendText" format="string" />
+        <attr name="supportVoice" format="boolean" />
+        <attr name="expandable" format="boolean" />
+    </declare-styleable>
+
+    <attr name="ColorPrimaryText" format="color|reference" />
+    <attr name="ForegroundColor" format="color|reference" />
+    <attr name="NeutralBigButton" format="reference" />
+</resources>

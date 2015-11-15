@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="buttonNeutralNormal">@color/colorPrimary</color>
+    <color name="DefaultBorderColor">#aab7b7b7</color>
+    <color name="DefaultForegroundColor">#ffffffff</color>
+    <color name="appDisableBackground">#ff666666</color>
+    <color name="buttonNeutralPressed">@color/colorPrimaryDark</color>
+    <color name="appBackgroundDark">#ffb8b8b8</color>
+    <color name="appColorPrimaryText">#ff333333</color>
+</resources>
