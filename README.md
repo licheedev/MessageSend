@@ -8,7 +8,7 @@
 
 执行效果：
 
-![](https://github.com/liangzhitao/MessageSendView/blob/master/MessageSendView.gif)
+![](https://github.com/liangzhitao/MessageSend/blob/master/MessageSendView.gif)
 
 ##License
 项目遵循MIT开源协议。
